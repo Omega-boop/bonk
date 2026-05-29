@@ -1,0 +1,17 @@
+{
+  "name": "bonk-platform",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev:consumer": "pnpm --filter @bonk/consumer dev",
+    "dev:provider": "pnpm --filter @bonk/provider dev",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint --if-present",
+    "test": "pnpm -r test --if-present",
+    "build": "pnpm -r build --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
