@@ -2,7 +2,7 @@
 
 > **Uber for service providers.** Post a job. Vetted pros nearby see it instantly. First to accept gets it (or they quote you back). On-the-way tracking. In-app payment. Done.
 
-**Status:** Day 0 — substrate. Sister product to [Cinch](https://github.com/Omega-boop/diamond-hands) (B2B AI Ops for service businesses). Cinch tenants are the seed provider pool; bonk is the consumer-facing acquisition channel.
+**Status:** Day 0 — substrate. Sister product to [Cinch](https://github.com/Omega-boop/cinch-platform) (B2B AI Ops for service businesses). Cinch tenants are the seed provider pool; bonk is the consumer-facing acquisition channel.
 
 **Working name "bonk"** is placeholder. Rename via `gh repo rename` once founder picks a final brand.
 
@@ -10,7 +10,7 @@
 
 ## Why this exists
 
-Per [Cinch ADR-0044](https://github.com/Omega-boop/diamond-hands/blob/iac-runbook-pavel-grep/docs/decisions/0044-marketplace-strategy-decision-deferred.md) + [strategic capture](https://github.com/Omega-boop/diamond-hands/blob/iac-runbook-pavel-grep/docs/strategic/UBER_FOR_SERVICE_PROVIDERS.md), the marketplace opportunity:
+Per [Cinch ADR-0044](https://github.com/Omega-boop/cinch-platform/blob/iac-runbook-pavel-grep/docs/decisions/0044-marketplace-strategy-decision-deferred.md) + [strategic capture](https://github.com/Omega-boop/cinch-platform/blob/iac-runbook-pavel-grep/docs/strategic/UBER_FOR_SERVICE_PROVIDERS.md), the marketplace opportunity:
 
 - **62-74% of contractor calls go unanswered** (Housecall Pro 2025 Customer Service Report)
 - **78% of customers hire whoever picks up first** (Invoca 2025 Call Conversion Benchmarks)
@@ -89,4 +89,4 @@ pnpm --filter @bonk/provider dev      # → http://localhost:3011
 
 ---
 
-*This is a Day 0 substrate. The marketplace decision was committed in [Cinch ADR-0044](https://github.com/Omega-boop/diamond-hands/blob/iac-runbook-pavel-grep/docs/decisions/0044-marketplace-strategy-decision-deferred.md) on 2026-05-29 with Option B (sister product, separate repo) chosen by founder directive. This repo materializes that decision.*
+*This is a Day 0 substrate. The marketplace decision was committed in [Cinch ADR-0044](https://github.com/Omega-boop/cinch-platform/blob/iac-runbook-pavel-grep/docs/decisions/0044-marketplace-strategy-decision-deferred.md) on 2026-05-29 with Option B (sister product, separate repo) chosen by founder directive. This repo materializes that decision.*

@@ -1,7 +1,7 @@
 # ADR-0002 — Relationship to Cinch
 
 > **Status:** Accepted (2026-05-29).
-> Defines how this repo (`bonk`) interacts with the parent Cinch repo (`Omega-boop/diamond-hands`).
+> Defines how this repo (`bonk`) interacts with the parent Cinch repo (`Omega-boop/cinch-platform`).
 
 ---
 
@@ -56,6 +56,6 @@ A bonk outage MUST NOT take down Cinch B2B. Cross-repo dependencies are one-way:
 
 ## §6 — Repo ownership + governance
 
-- `Omega-boop/diamond-hands` — Cinch, owned by founder
+- `Omega-boop/cinch-platform` — Cinch, owned by founder
 - `Omega-boop/bonk` — bonk, owned by founder
 - Future: separate GitHub org `cinch-platform` housing both (rename via `gh repo transfer`)
